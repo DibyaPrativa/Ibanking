@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T10:11:03 IST" name="ibanking" finished-at="2023-07-12T10:11:23 IST" duration-ms="19795">
+    <groups>
+    </groups>
+    <test started-at="2023-07-12T10:11:03 IST" name="Test" finished-at="2023-07-12T10:11:23 IST" duration-ms="19795">
+      <class name="pom.inetbanking.testcases.TC_Logintest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:pom.inetbanking.testcases.TC_Logintest_001@7b2bbc3]" started-at="2023-07-12T10:11:03 IST" name="setup" finished-at="2023-07-12T10:11:20 IST" duration-ms="17421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:pom.inetbanking.testcases.TC_Logintest_001@7b2bbc3]" started-at="2023-07-12T10:11:20 IST" name="loginTest" finished-at="2023-07-12T10:11:22 IST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pom.inetbanking.testcases.TC_Logintest_001@7b2bbc3]" started-at="2023-07-12T10:11:22 IST" name="teardown" finished-at="2023-07-12T10:11:23 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pom.inetbanking.testcases.TC_Logintest_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- ibanking -->
+</testng-results>
